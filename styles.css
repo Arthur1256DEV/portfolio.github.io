@@ -35,7 +35,7 @@ aside{
 }
 
 main{
-    min-width: 1300px;
+    min-width: 60vw;
     margin-left: 20px;
     transition: 0.5s;
 }
@@ -164,20 +164,21 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    min-width: 980px;
+    min-width: 490px;
     min-height: 60px;
-    width: 980px;
+    width: 60vw;
     height: 60px;
     border-radius: 20px;
     background-color: #302F3D;
+    transition: 0.5s;
 }
 
 .twoContainer{
     display: flex;
     margin-top: 20px;
-    min-width: 450px;
+    min-width: 225px;
     min-height: 186px;
-    width: 450px;
+    width: 55vw;
     height: 186px;
     border-radius: 20px;
     transition: 0.5s;
@@ -185,7 +186,8 @@ main{
 
 .oneContainer{
     padding: 10px;
-    width: 450px;
+    min-width: 210px;
+    width: 27vw;
 }
 
 .twoitems{ 
@@ -213,7 +215,7 @@ main{
 }
 
 .floaterReverse{
-    margin-left: 230px;
+    margin-left: 4px;
 }
 
 
@@ -244,20 +246,22 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    margin-top: 20px;
-    min-width: 980px;
+    margin-top: 60px;
+    min-width: 490px;
     min-height: 60px;
-    width: 980px;
+    width: 60vw;
     height: 60px;
     border-radius: 20px;
     background-color: #302F3D;
 }
 
 .postMain{
+    font-size: small;
     margin-left: 15px;
-    margin-top: 30px;
+    margin-top: 12px;
+    min-width: 495px;
     min-height: 200px;
-    width: 970px;
+    width: 60vw;
     height: 200px;
     border-radius: 20px;
     background-color: #302F3D;
@@ -283,9 +287,11 @@ main{
     padding: 5px;
     margin-top: 25px;
     margin-right: 10px;
-    width: 128px;
-    height: 128px;
-    min-width: 128px;
-    min-height: 128px;
+    min-width: 64px;
+    min-height: 64px;
+    max-width: 128px;
+    max-height: 128px;
+    width: 20vw;
+    height: 20vh;
     border-radius: 90px;
 }
