@@ -223,7 +223,8 @@ main{
     border: 2px outset blue;
     border-radius: 20px;
     height: fit-content;
-
+    width: fit-content;
+    transition: 0.5s;
 }
 
 .typefolder{
@@ -250,4 +251,41 @@ main{
     height: 60px;
     border-radius: 20px;
     background-color: #302F3D;
+}
+
+.postMain{
+    margin-left: 15px;
+    margin-top: 30px;
+    min-height: 200px;
+    width: 970px;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+.postMain:hover{
+    padding: 0;
+    margin: 0;
+    border: 2px outset blue;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.subpostMain{
+    margin-left: 30px;
+    padding: 30px;
+}
+
+.perfil-post{
+    float: left;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin-top: 25px;
+    margin-right: 10px;
+    width: 128px;
+    height: 128px;
+    min-width: 128px;
+    min-height: 128px;
+    border-radius: 90px;
 }
