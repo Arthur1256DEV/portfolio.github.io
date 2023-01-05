@@ -1,0 +1,253 @@
+*{
+    margin: 5px;
+    font-family: 'Merriweather Sans', sans-serif;
+    color: #837E9F;
+}
+
+body{
+    background-color: #22212C;
+}
+
+h3{
+    font-weight: 700;
+}
+
+p{
+    font-weight: 500;
+}
+
+a{
+    outline-style: none;
+    font-style: none;
+    text-decoration: none;
+}
+
+strong{
+    font-weight: 700;
+}
+
+aside{
+    display: flex;
+    flex-direction: column;
+    width: 370px;
+    min-width: 370px;
+    transition: 0.5s;
+}
+
+main{
+    min-width: 1300px;
+    margin-left: 20px;
+    transition: 0.5s;
+}
+
+/*Lidando com o ajuste da página*/
+.MainAside{
+    display: flex;
+}
+
+/*Lidando Aside*/
+
+.container-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 300px;
+    min-width: 350px;
+    min-height: 300px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.container-flex-V2{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 220px;
+    min-width: 350px;
+    min-height: 220px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.container-flex-V3{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 150px;
+    min-width: 350px;
+    min-height: 150px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.container-flex-V4{
+    display: flex;
+    flex-direction: column;
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    margin-bottom: 20px;
+    width: 350px;
+    height: 540px;
+    min-width: 350px;
+    min-height: 540px;
+    background-color: #302F3D;
+    border-radius: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 86px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 7px;
+    border-radius: 20px;
+    background-color: #CB92B1;
+    color: black;
+}
+
+.Title{
+    padding: 5px;
+}
+
+.sublist{
+    font-weight: 400;
+    font-size: small;
+    color: #837E9F;
+}
+
+.profile-1{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.profile-photo1{
+    width: 128px;
+    height: 128px;
+    min-width: 128px;
+    min-height: 128px;
+    border-radius: 90px;
+    border: 2px solid #00FF00;
+    padding: 3px;
+}
+
+.tables{
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+}
+
+.spacer{
+    margin-bottom: 20px;
+}
+
+
+/*Lidando com a Main*/
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    min-width: 980px;
+    min-height: 60px;
+    width: 980px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #302F3D;
+}
+
+.twoContainer{
+    display: flex;
+    margin-top: 20px;
+    min-width: 450px;
+    min-height: 186px;
+    width: 450px;
+    height: 186px;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.oneContainer{
+    padding: 10px;
+    width: 450px;
+}
+
+.twoitems{ 
+    display: flex;
+    width: 100%;
+}
+
+.flex{
+    display: flex;
+    margin-top: 20px;
+}
+
+.flexV2{
+    display: flex;
+}
+
+.flexV3{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 18px;
+}
+
+.floaterFolder{
+    float: left;
+}
+
+.floaterReverse{
+    margin-left: 230px;
+}
+
+
+.animHover:hover{
+    padding: 0;
+    margin: 0;
+    border: 2px outset blue;
+    border-radius: 20px;
+    height: fit-content;
+
+}
+
+.typefolder{
+    margin-top: 20px;
+}
+
+.background{
+    background-color:  #302F3D;
+    border-radius: 20px;
+}
+
+/*Mechendo com posts*/
+
+.container-spacer{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin-top: 20px;
+    min-width: 980px;
+    min-height: 60px;
+    width: 980px;
+    height: 60px;
+    border-radius: 20px;
+    background-color: #302F3D;
+}
