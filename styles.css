@@ -181,6 +181,13 @@ main{
     width: 55vw;
     height: 186px;
     border-radius: 20px;
+}
+
+.oneContainer:hover{
+    padding: 0;
+    margin: 0;
+    border: 2px outset blue;
+    border-radius: 20px;
     transition: 0.5s;
 }
 
@@ -188,11 +195,14 @@ main{
     padding: 10px;
     min-width: 210px;
     width: 27vw;
+    transition: 0.5s;
 }
 
-.twoitems{ 
+
+.tryitems{ 
     display: flex;
     width: 100%;
+    transition: 0.5s;
 }
 
 .flex{
@@ -219,16 +229,6 @@ main{
 }
 
 
-.animHover:hover{
-    padding: 0;
-    margin: 0;
-    border: 2px outset blue;
-    border-radius: 20px;
-    height: fit-content;
-    width: fit-content;
-    transition: 0.5s;
-}
-
 .typefolder{
     margin-top: 20px;
 }
@@ -246,25 +246,27 @@ main{
     align-items: center;
     justify-content: space-between;
     padding: 10px;
-    margin-top: 60px;
+    margin-top: 40px;
     min-width: 490px;
     min-height: 60px;
     width: 60vw;
     height: 60px;
     border-radius: 20px;
     background-color: #302F3D;
+    transition: 0.5s;
 }
 
 .postMain{
     font-size: small;
     margin-left: 15px;
-    margin-top: 12px;
+    margin-top: 5px;
     min-width: 495px;
     min-height: 200px;
     width: 60vw;
     height: 200px;
     border-radius: 20px;
     background-color: #302F3D;
+    transition: 0.5s;
 }
 
 .postMain:hover{
@@ -293,5 +295,6 @@ main{
     max-height: 128px;
     width: 20vw;
     height: 20vh;
-    border-radius: 120px;
+    border-radius: 140px;
+    transition: 0.5s;
 }
