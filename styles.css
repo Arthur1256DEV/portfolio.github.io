@@ -259,7 +259,6 @@ main{
 .postMain{
     font-size: small;
     margin-left: 15px;
-    margin-top: 5px;
     min-width: 495px;
     min-height: 200px;
     width: 60vw;
@@ -279,7 +278,7 @@ main{
 
 .subpostMain{
     margin-left: 30px;
-    padding: 30px;
+    padding: 20px;
 }
 
 .perfil-post{
@@ -297,4 +296,11 @@ main{
     height: 20vh;
     border-radius: 140px;
     transition: 0.5s;
+}
+
+
+/*Mechendo com a responsividade do site*/
+
+.response:hover{
+    color: #836F7F;
 }
