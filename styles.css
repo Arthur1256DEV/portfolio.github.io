@@ -97,11 +97,15 @@ main{
     padding: 5px;
     margin-bottom: 20px;
     width: 350px;
-    height: 540px;
+    height: 590px;
     min-width: 350px;
-    min-height: 540px;
+    min-height: 590px;
     background-color: #302F3D;
     border-radius: 20px;
+}
+
+.small{
+    font-size: small;
 }
 
 .grid{
