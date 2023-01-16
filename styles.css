@@ -331,6 +331,7 @@ main{
         width: 30px;
         height: 35px;
         transition: 0.2s;
+        border-radius: 10px;
     }
 
     .buttonOriginV2{
@@ -344,6 +345,87 @@ main{
         width: 30px;
         height: 35px;
         transition: 0.2s;
+        border-radius: 10px;
+    }
+
+    .buttonOrigin:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .buttonOriginV2:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+    .buttonImg{
+        width: 20px;
+        height: 20px;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .container{
+        min-width: 500px;
+        width: 500px;
+    }
+
+    .twoContainer{
+        margin-left: 20vw;
+    }
+
+    .invisible{
+       display: none;
+    }
+
+    .container-spacer{
+        margin-top: 20px;
+        min-width: 500px;
+        width: 500px;
+    }
+
+    .postMain{
+        min-width: 500px;
+        width: 500px;
+        height: 230px;
+    }
+
+    .perfil-post{
+        width: 40px;
+        height: 40px;
+        border-radius: 90px;
+    }
+
+}
+
+@media (max-width: 500px){
+    .buttonOrigin{
+        z-index: 2;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        background-color: #00FF00;
+        margin-top: 10px;
+        margin-left: -5px;
+        width: 30px;
+        height: 35px;
+        transition: 0.2s;
+        border-radius: 10px;
+    }
+
+    .buttonOriginV2{
+        z-index: 2;
+        position: fixed;
+        display: none;
+        justify-content: center;
+        background-color: #00FF00;
+        margin-top: 10px;
+        margin-left: -5px;
+        width: 30px;
+        height: 35px;
+        transition: 0.2s;
+        border-radius: 5px;
     }
 
     .buttonOrigin:hover{

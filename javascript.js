@@ -14,6 +14,7 @@ function addStyle() {
   
     asides.insertRule(`aside{
         display: initial;
+        margin-left: 20px;
     }`)
 
     document.adoptedStyleSheets = [buttonV1, buttonV2, asides]
