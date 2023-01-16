@@ -30,6 +30,13 @@ footer{
     transition: 0.5s;
 }
 
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
 /*Mechendo com postagens*/
 .postContainerSite{
     border-radius: 15px;
@@ -64,3 +71,21 @@ footer{
     transition: 0.5s;
 }
 
+.centred{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 720px){
+    .titlePost{
+        width: 200px;
+    }
+
+    ul{
+        gap: 0.3em;
+        flex-wrap: wrap;
+    }
+}

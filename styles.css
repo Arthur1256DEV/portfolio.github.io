@@ -18,7 +18,6 @@ p{
 
 a{
     outline-style: none;
-    font-style: none;
     text-decoration: none;
 }
 
@@ -92,14 +91,13 @@ main{
 .container-flex-V4{
     display: flex;
     flex-direction: column;
-    color: black;
     font-size: 15px;
     padding: 5px;
     margin-bottom: 20px;
     width: 350px;
     height: 590px;
     min-width: 350px;
-    min-height: 590px;
+    min-height: 630px;
     background-color: #302F3D;
     border-radius: 20px;
 }
@@ -307,4 +305,94 @@ main{
 
 .response:hover{
     color: #836F7F;
+}
+
+/*Deixando botao invisivel na página principal*/
+.buttonOrigin{
+    display: none;
+}
+
+.buttonOriginV2{
+    display: none;
+}
+
+
+/*Mechendo com a responsividade*/
+
+@media (max-width: 720px){
+    .buttonOrigin{
+        z-index: 2;
+        position: fixed;
+        display: flex;
+        justify-content: center;
+        background-color: #00FF00;
+        margin-top: 10px;
+        margin-left: -5px;
+        width: 30px;
+        height: 35px;
+        transition: 0.2s;
+    }
+
+    .buttonOriginV2{
+        z-index: 2;
+        position: fixed;
+        display: none;
+        justify-content: center;
+        background-color: #00FF00;
+        margin-top: 10px;
+        margin-left: -5px;
+        width: 30px;
+        height: 35px;
+        transition: 0.2s;
+    }
+
+    .buttonOrigin:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+
+    .buttonOriginV2:hover{
+        transform: scale(1.1);
+        transition: 0.2s;
+    }
+    .buttonImg{
+        width: 20px;
+        height: 20px;
+    }
+
+    aside{
+        display: none;
+    }
+
+    .container{
+        min-width: 300px;
+        width: 300px;
+    }
+
+    .twoContainer{
+        margin-left: 10vw;
+    }
+
+    .invisible{
+       display: none;
+    }
+
+    .container-spacer{
+        margin-top: 20px;
+        min-width: 300px;
+        width: 300px;
+    }
+
+    .postMain{
+        min-width: 300px;
+        width: 300px;
+        height: 230px;
+    }
+
+    .perfil-post{
+        width: 40px;
+        height: 40px;
+        border-radius: 90px;
+    }
+
 }
