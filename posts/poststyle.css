@@ -85,6 +85,17 @@ ul{
     }
 
     ul{
+        gap: 1em;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 500px){
+    .titlePost{
+        width: 200px;
+    }
+
+    ul{
         gap: 0.3em;
         flex-wrap: wrap;
     }
