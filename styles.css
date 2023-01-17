@@ -371,10 +371,6 @@ main{
         width: 600px;
     }
 
-    .twoContainer{
-        margin-left: 14vw;
-    }
-
     .oneContainer{
         width: 400px;
     }
@@ -450,13 +446,18 @@ main{
         display: none;
     }
 
+    main{
+        margin-left: 6vw;
+    }
+
     .container{
         min-width: 300px;
         width: 300px;
     }
 
-    .twoContainer{
-        margin-left: 10vw;
+    .oneContainer{
+        min-width: 270px;
+        width: 270px;
     }
 
     .invisible{
