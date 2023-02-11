@@ -319,7 +319,7 @@ main{
 
 /*Mechendo com a responsividade*/
 
-@media (max-width: 720px){
+@media (width: 720px){
     .buttonOrigin{
         z-index: 2;
         position: fixed;
@@ -411,7 +411,7 @@ main{
         width: 30px;
         height: 35px;
         transition: 0.2s;
-        border-radius: 10px;
+        border-radius: 70px;
     }
 
     .buttonOriginV2{
@@ -425,7 +425,7 @@ main{
         width: 30px;
         height: 35px;
         transition: 0.2s;
-        border-radius: 5px;
+        border-radius: 70px;
     }
 
     .buttonOrigin:hover{
