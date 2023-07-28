@@ -319,13 +319,13 @@ main{
 
 /*Mechendo com a responsividade*/
 
-@media (width: 720px){
+@media (max-width: 720px){
     .buttonOrigin{
         z-index: 2;
         position: fixed;
         display: flex;
         justify-content: center;
-        background-color: #00FF00;
+        background-color: #d9dbd9;
         margin-top: 10px;
         margin-left: -5px;
         width: 30px;
@@ -339,13 +339,13 @@ main{
         position: fixed;
         display: none;
         justify-content: center;
-        background-color: #00FF00;
+        background-color: #9ba39b;
         margin-top: 10px;
         margin-left: -5px;
         width: 30px;
         height: 35px;
         transition: 0.2s;
-        border-radius: 10px;
+        border-radius: 15px;
     }
 
     .buttonOrigin:hover{
@@ -364,90 +364,6 @@ main{
 
     aside{
         display: none;
-    }
-
-    .container{
-        min-width: 600px;
-        width: 600px;
-    }
-
-    .oneContainer{
-        width: 400px;
-    }
-
-    .invisible{
-       display: none;
-    }
-
-    .container-spacer{
-        margin-top: 20px;
-        min-width: 600px;
-        width: 600px;
-    }
-
-    .postMain{
-        min-width: 600px;
-        width: 600px;
-        height: 230px;
-    }
-
-    .perfil-post{
-        width: 100px;
-        height: 100px;
-        border-radius: 90px;
-    }
-
-}
-
-@media (max-width: 500px){
-    .buttonOrigin{
-        z-index: 2;
-        position: fixed;
-        display: flex;
-        justify-content: center;
-        background-color: #00FF00;
-        margin-top: 10px;
-        margin-left: -5px;
-        width: 30px;
-        height: 35px;
-        transition: 0.2s;
-        border-radius: 70px;
-    }
-
-    .buttonOriginV2{
-        z-index: 2;
-        position: fixed;
-        display: none;
-        justify-content: center;
-        background-color: #00FF00;
-        margin-top: 10px;
-        margin-left: -5px;
-        width: 30px;
-        height: 35px;
-        transition: 0.2s;
-        border-radius: 70px;
-    }
-
-    .buttonOrigin:hover{
-        transform: scale(1.1);
-        transition: 0.2s;
-    }
-
-    .buttonOriginV2:hover{
-        transform: scale(1.1);
-        transition: 0.2s;
-    }
-    .buttonImg{
-        width: 20px;
-        height: 20px;
-    }
-
-    aside{
-        display: none;
-    }
-
-    main{
-        margin-left: 6vw;
     }
 
     .container{
@@ -455,9 +371,8 @@ main{
         width: 300px;
     }
 
-    .oneContainer{
-        min-width: 270px;
-        width: 270px;
+    .twoContainer{
+        margin-left: 10vw;
     }
 
     .invisible{
