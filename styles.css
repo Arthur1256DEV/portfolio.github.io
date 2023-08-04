@@ -4,6 +4,31 @@
     color: #837E9F;
 }
 
+*::-webkit-scrollbar{
+    background-color: transparent;
+    border-radius: 15px;
+    width: 4px;
+    transition: 0.2s;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color: #3F3939;
+    transition: 0.2s;
+    border-radius: 15px;
+}
+
+*::-webkit-scrollbar:horizontal{
+    height: 5px;
+}
+
+*::-webkit-scrollbar-button{
+    display: none;
+}
+
+*::-webkit-scrollbar-corner{
+    display: none;
+}
+
 body{
     background-color: #22212C;
 }
@@ -95,11 +120,12 @@ main{
     padding: 5px;
     margin-bottom: 20px;
     width: 350px;
-    height: 710px;
+    height: 350px;
     min-width: 350px;
-    min-height: 630px;
+    min-height: 350px;
     background-color: #302F3D;
     border-radius: 20px;
+    overflow-y: scroll;
 }
 
 .small{
